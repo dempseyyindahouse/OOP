@@ -1,6 +1,6 @@
 public class Main {
   public static void main(String[] args) {
-    BankAccount a = new BankAccount("Nguyen Manh Hung", "20225630", 100000);
+    BankAccount a = new BankAccount("Mai Trung Hieu", "20225838", 100000);
     a.deposit(5000);
     a.withDraw(10000);
     a.print();
@@ -10,7 +10,7 @@ public class Main {
     
     b.deposit(10000);
     b.withDraw(50000);
-    System.out.println("tien lai hang thang: " + b.CaculateMonthlyInterest());
+    System.out.println("tien sinh loi hang thang: " + b.CaculateMonthlyInterest());
     b.print();
     
   }
